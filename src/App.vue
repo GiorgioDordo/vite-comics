@@ -1,7 +1,7 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppContent from './components/AppContent.vue'
-import AppNavbar from './components/AppNavbar.vue'
+import AppHero from './components/AppHero.vue'
 import AppInfo from './components/AppInfo.vue'
 import AppFooter from './components/AppFooter.vue'
 
@@ -13,7 +13,7 @@ export default {
   components:{
     AppHeader,
     AppContent,
-    AppNavbar,
+    AppHero,
     AppInfo,
     AppFooter
   }
@@ -23,7 +23,7 @@ export default {
 <template>
 <AppHeader />
 <AppContent />
-<AppNavbar />
+<AppHero />
 <AppInfo />
 <AppFooter />
 </template>

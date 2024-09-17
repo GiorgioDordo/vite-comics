@@ -45,10 +45,10 @@ data () {
 
 <style lang="scss" scoped>
 .nav-container {
-    height: 100px;
+    height: 130px;
 
     #dc-logo {
-        height: 80px;
+        height: 100px;
     }
 }
 </style>
