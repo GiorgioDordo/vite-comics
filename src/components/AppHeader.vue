@@ -36,7 +36,7 @@ data () {
         
         <nav>
             <ul class="list-unstyled d-flex gap-3">
-                <li v-for="(item, index) in linkList" :key="index" :class="{active: item.active}" @click="addActiveIndex(index)" >{{ item.name }}</li>
+                <li v-for="(item, index) in linkList" :key="index" :class="{active: item.active}" @click="addActiveIndex(index)" ><a href="">{{ item.name }}</a></li>
             </ul>
         </nav>
     </div>
